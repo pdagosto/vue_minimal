@@ -10,7 +10,6 @@ module.exports = {
     ],
     moduleNameMapper: {
         '^@/(.*)$': '<rootDir>/src/$1',
-        '\\.vue$': 'vue/dist/vue',
         '\\.(css|less)$': 'identity-obj-proxy'
     },
     transform: {
